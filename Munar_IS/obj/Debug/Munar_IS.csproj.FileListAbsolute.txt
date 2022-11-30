@@ -1,0 +1,11 @@
+C:\Users\kath\Desktop\qwwe\Munar_IS\bin\Debug\Munar_IS.exe.config
+C:\Users\kath\Desktop\qwwe\Munar_IS\bin\Debug\Munar_IS.exe
+C:\Users\kath\Desktop\qwwe\Munar_IS\bin\Debug\Munar_IS.pdb
+C:\Users\kath\Desktop\qwwe\Munar_IS\obj\Debug\Munar_IS.csproj.AssemblyReference.cache
+C:\Users\kath\Desktop\qwwe\Munar_IS\obj\Debug\Munar_IS.csproj.SuggestedBindingRedirects.cache
+C:\Users\kath\Desktop\qwwe\Munar_IS\obj\Debug\Puzzle.Form1.resources
+C:\Users\kath\Desktop\qwwe\Munar_IS\obj\Debug\Munar_IS.Properties.Resources.resources
+C:\Users\kath\Desktop\qwwe\Munar_IS\obj\Debug\Munar_IS.csproj.GenerateResource.cache
+C:\Users\kath\Desktop\qwwe\Munar_IS\obj\Debug\Munar_IS.csproj.CoreCompileInputs.cache
+C:\Users\kath\Desktop\qwwe\Munar_IS\obj\Debug\Munar_IS.exe
+C:\Users\kath\Desktop\qwwe\Munar_IS\obj\Debug\Munar_IS.pdb
