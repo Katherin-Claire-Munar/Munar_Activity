@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -38,7 +38,7 @@ namespace Puzzle
             mStrategy.OnStateChanged += OnStrategyStateChanged;
             mStrategy.OnPuzzleSolved += OnPuzzleSolved;
 
-            // Set display nodes
+            /// Set display nodes
             mButtons = new Dictionary<int, Button>();
             mButtons[0] = button1;
             mButtons[1] = button2;
@@ -50,15 +50,18 @@ namespace Puzzle
             mButtons[7] = button8;
             mButtons[8] = button9;
 
-            // Display state
+            /// Display state
             DisplayState(mInitialState, false);
-
-            statusLabel.Text = "You can drag & drop to shuffle tiles...";
             progressBar.Style = ProgressBarStyle.Marquee;
             progressBar.Visible = false;
             manhattanDistanceMenu.Checked = true;
         }
 
+        /// <summary>
+        /// For Swapping the tiles
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
         private void SwapValues(int x, int y)
         {
             int temp = mInitialState[x];
@@ -82,12 +85,12 @@ namespace Puzzle
                     if (steps > -1)
                     {
                         statusLabel.Text = "Steps: " + steps.ToString("n0") + ", Time: " + (time / 1000.0).ToString("n2") + ", States: " + statesExamined.ToString("n0");
-                        MessageBox.Show(this, "Solution found! Click on Ok to see the steps...");
+                        MessageBox.Show(this, "Click on Ok to see the steps...");
                     }
                     else
                     {
                         statusLabel.Text = "Steps: none, Time: " + (time / 1000.0).ToString("n3") + "sec, States: " + statesExamined.ToString("n0");
-                        MessageBox.Show(this, "No solution found!");
+                        MessageBox.Show(this, "Please try again");
                     }
                 };
 
